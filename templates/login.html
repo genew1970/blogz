@@ -1,0 +1,36 @@
+<h1>
+    Signup
+</h1>
+
+<form action-"/welcome" method="post">
+    <table>
+        <tr>
+            <td class="input_label">
+                Username
+            </td>
+
+            <td>
+                <input type="text" name="user_name" value="{{ username }}">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="input_label">
+                Password
+            </td>
+
+            <td>
+                <input type="password" name="password">
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <span class="error">{{ error }}</span>
+        </tr>
+    </table>
+
+<br>
+<input type="submit" value="Submit">
+</form>

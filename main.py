@@ -21,6 +21,7 @@ class BlogHandler(webapp2.RequestHandler):
         """
 
         # TODO - filter the query so that only posts by the given user
+
         return None
 
     def get_user_by_name(self, username):
